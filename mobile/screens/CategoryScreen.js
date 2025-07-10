@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://your-rails-api-url';
+const API_BASE_URL = 'http://127.0.0.1:3000';
 
 export default function CategoryScreen({ route, navigation }) {
     const { category } = route.params;
