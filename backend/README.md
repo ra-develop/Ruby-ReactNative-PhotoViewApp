@@ -1,3 +1,5 @@
+# BACKEND
+
 To start and test the Ruby on Rails backend for the FoodieSnap application, follow these steps:
 
 ---
