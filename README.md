@@ -19,9 +19,9 @@ This project demonstrates clean architecture, mobile-backend integration, and a 
     
 *   **Navigation:** React Navigation
     
-*   **State Management:** React hooks / Context API (if used)
+*   **State Management:** React hooks / Context API
     
-*   **UI Components:** NativeBase / React Native Paper (if applicable)
+*   **UI Components:** NativeBase / React Native 
     
 
 ### Backend
