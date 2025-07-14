@@ -42,11 +42,9 @@ CopyEdit
 
 `mobile/
 ├── assets/ # Static resources (images, fonts, etc.) 
-├── components/ # Reusable UI components 
 ├── screens/ # App screens (Home, Photo Detail, etc.) 
-├── services/ # API handlers 
 ├── App.js # App entry point 
-└── app.json # Expo configuration` 
+└── package.json # Expo configuration` 
 
 📸 Features
 -----------
