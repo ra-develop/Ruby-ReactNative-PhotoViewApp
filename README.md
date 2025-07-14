@@ -4,7 +4,7 @@
 📝 Project Overview
 -------------------
 
-**PhotoViewApp** is a simple and elegant full-stack mobile application built with **React Native** using **Expo**, allowing users to browse and view photos. The app communicates with a custom **Ruby on Rails** backend that serves photo data via a RESTful API.
+**PhotoViewApp** is a simple full-stack mobile application built with **React Native** using **Expo**, allowing users to browse and view photos. The app communicates with a custom **Ruby on Rails** backend that serves photo data via a RESTful API.
 
 This project demonstrates clean architecture, mobile-backend integration, and a modern mobile user interface.
 
