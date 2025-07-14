@@ -11,7 +11,7 @@ This project demonstrates clean architecture, mobile-backend integration, and a 
 🚀 Tech Stack
 -------------
 
-### Mobile
+### Frontend
 
 *   **Framework:** React Native (with Expo)
     
@@ -36,15 +36,13 @@ This project demonstrates clean architecture, mobile-backend integration, and a 
 📂 Project Structure (Frontend)
 -------------------------------
 
-bash
-
-CopyEdit
-
-`mobile/
+```bash
+mobile/
 ├── assets/ # Static resources (images, fonts, etc.) 
 ├── screens/ # App screens (Home, Photo Detail, etc.) 
 ├── App.js # App entry point 
-└── package.json # Expo configuration` 
+└── package.json # Expo configuration
+``` 
 
 📸 Features
 -----------
@@ -52,9 +50,7 @@ CopyEdit
 *   Browse a list of photos served from the backend
     
 *   View photo details with full-screen preview
-    
-*   Pull-to-refresh support (optional)
-    
+        
 *   Responsive design for various screen sizes
     
 
@@ -75,45 +71,38 @@ CopyEdit
 ### Run the App
 
 1.  Clone the repository:
+        
+    ```bash
+    git clone https://github.com/your-username/PhotoViewApp.git
+    ``` 
     
-    bash
+3.  Install dependencies:
     
-    CopyEdit
+        
+    ```bash
+    cd PhotoViewApp
+    npm install
+    ``` 
     
-    `git clone https://github.com/your-username/PhotoViewApp.git` 
+4.  Start the Expo development server:
+
+    ```bash
+    npm start
+    ```
     
-2.  Install dependencies:
-    
-    bash
-    
-    CopyEdit
-    
-    `cd PhotoViewApp
-    npm install` 
-    
-3.  Start the Expo development server:
-    
-    bash
-    
-    CopyEdit
-    
-    `npm start` 
-    
-4.  Run on a simulator or Expo Go mobile app.
+5.  Run on a simulator or Expo Go mobile app.
     
 
 ### Start the Backend
 
 1.  Navigate to the backend directory (if in a separate repo/folder):
-    
-    bash
-    
-    CopyEdit
-    
-    `cd backend
+2.  
+    ```bash
+    cd backend
     bundle install
     rails db:setup
-    rails server` 
+    rails server
+    ``` 
     
 
 ✅ Future Improvements
