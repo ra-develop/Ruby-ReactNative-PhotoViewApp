@@ -123,45 +123,49 @@ const API_BASE_URL = 'http://YOUR_LOCAL_IP:3000';  // e.g., 'http://192.168.1.5:
 
    1.  **First, check if you have a migration file**:
        
-       bash
-       
+       ```bash
        ls db/migrate/
+       ```
        
        *   You should see at least one file like `XXXXXXXXXXXXXX_create_photos.rb`
            
    2.  **If no migration exists**, create one:
        
-       bash
+       ```bash
        
        rails generate migration CreatePhotos title:string image\_url:string category:string description:text likes:integer
+       ```
        
    3.  **Reset your database completely** (run these commands one by one):
        
-       bash
+       ```bash
        
        rails db:drop           \# Drops existing database
        rails db:create         \# Creates new database
        rails db:migrate        \# Runs all migrations
        rails db:seed           \# Loads seed data
+       ```
        
    4.  **Verify the table was created**:
        
-       bash
+       ```bash
        
        rails dbconsole
        .tables                 \# Should list 'photos'
        .schema photos          \# Shows table structure
        .quit
+       ```
        
 
    ### Alternative Quick Fix
 
    If you're still having issues, try this nuclear option:
 
-   bash
+   ```bash
 
    rm \-rf db/\*.sqlite3 db/schema.rb  \# Remove all database files
    rails db:setup                    \# Creates DB, loads schema, seeds data
+   ```
 
 ---
 
