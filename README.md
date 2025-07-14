@@ -30,7 +30,7 @@ This project demonstrates clean architecture, mobile-backend integration, and a 
     
 *   **API:** RESTful endpoints to serve photo data
     
-*   **Database:** SQLite / PostgreSQL (depending on setup)
+*   **Database:** SQLite
     
 
 📂 Project Structure (Frontend)
